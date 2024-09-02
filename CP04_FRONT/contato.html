@@ -10,21 +10,24 @@
 <body>
     <header class="bg-light py-3">
         <nav class="navbar navbar-expand-lg navbar-light container">
-            <a class="navbar-brand" href="#">EcoShop</a>
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="EcoShop" class="logo-img" style="width: 10%;"> 
+                EcoShop
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="categorias.html">Categorias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link active" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -59,8 +62,29 @@
         </div>
     </main>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Sua Loja | <a href="#" class="text-white">Políticas</a> | <a href="#" class="text-white">Termos</a></p>
+    <footer class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nós</h5>
+                    <p>Informações sobre a loja.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links Úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="categorias.html">Categorias</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Políticas</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <a href="#" class="mr-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="mr-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
